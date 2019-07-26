@@ -12,7 +12,7 @@ import ArtPage from './Pages/ArtPage';
 export default class PageContainer extends Component {
     render() {
         return (
-        <div id="page-container">
+        <div id="page-container" className="page-container">
             <Switch>
                 <Route exact path='/' component={HomePage}/>
                 <Route exact path='/mainstory' component={MainStoryPage}/>

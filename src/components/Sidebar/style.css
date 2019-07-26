@@ -1,0 +1,9 @@
+.p-menu {
+    height: 100vh;
+    display: inline-flex;
+    min-width: 175px;
+}
+.p-menu-list {
+    text-align: left;
+    min-width: 173px;
+}
